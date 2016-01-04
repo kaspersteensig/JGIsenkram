@@ -1,15 +1,15 @@
 /* line 3, ../SCSS/style.scss */
 body {
-  background-color: bada55;
+  background-color: #bababa;
 }
 
-/* line 6, ../SCSS/style.scss */
+/* line 7, ../SCSS/style.scss */
 .container {
   max-width: 70vw;
   margin: 0 auto;
 }
 
-/* line 10, ../SCSS/style.scss */
+/* line 11, ../SCSS/style.scss */
 .section {
   width: 100%;
   max-width: 1600px;
@@ -21,7 +21,7 @@ body {
   min-height: 50vh;
 }
 
-/* line 20, ../SCSS/style.scss */
+/* line 21, ../SCSS/style.scss */
 .inner {
   width: 960px;
   margin: 0 auto;
@@ -32,13 +32,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 30, ../SCSS/style.scss */
+/* line 31, ../SCSS/style.scss */
 .inner:after {
   content: "";
   clear: both;
 }
 
-/* line 35, ../SCSS/style.scss */
+/* line 36, ../SCSS/style.scss */
 .subMenu {
   height: 50px;
   z-index: 1000;
@@ -46,7 +46,7 @@ body {
   background: #0977bc;
 }
 
-/* line 41, ../SCSS/style.scss */
+/* line 42, ../SCSS/style.scss */
 .subMenu .inner {
   display: flex;
   padding: 0;
@@ -54,7 +54,7 @@ body {
   margin: 0 auto;
 }
 
-/* line 47, ../SCSS/style.scss */
+/* line 48, ../SCSS/style.scss */
 .subNavBtn {
   flex: 1;
   height: 35px;
@@ -65,22 +65,22 @@ body {
   text-align: center;
   color: #fff;
 }
-/* line 57, ../SCSS/style.scss */
+/* line 58, ../SCSS/style.scss */
 .subNavBtn:hover {
   background: #1783c7;
 }
 
-/* line 61, ../SCSS/style.scss */
+/* line 62, ../SCSS/style.scss */
 .active {
   background: #25aae1;
 }
 
-/* line 64, ../SCSS/style.scss */
+/* line 65, ../SCSS/style.scss */
 .end {
   margin: 0;
 }
 
-/* line 67, ../SCSS/style.scss */
+/* line 68, ../SCSS/style.scss */
 .sTop {
   min-height: 130px;
   background: #fff;
@@ -89,39 +89,34 @@ body {
   height: 300px;
 }
 
-/* line 74, ../SCSS/style.scss */
+/* line 75, ../SCSS/style.scss */
 .s1 {
   background: #184764;
   color: #fff;
 }
 
-/* line 78, ../SCSS/style.scss */
+/* line 79, ../SCSS/style.scss */
 .s2 {
   background: #313131;
 }
 
-/* line 81, ../SCSS/style.scss */
-.s2 a {
-  color: #fff;
-}
-
-/* line 84, ../SCSS/style.scss */
+/* line 83, ../SCSS/style.scss */
 .s3 {
   background: #1b83b3;
 }
 
-/* line 87, ../SCSS/style.scss */
+/* line 86, ../SCSS/style.scss */
 .s4 {
   background: #5aa3c4;
 }
 
-/* line 90, ../SCSS/style.scss */
+/* line 89, ../SCSS/style.scss */
 .s5 {
   background: #bce1f1;
   color: #3d3d3d;
 }
 
-/* line 94, ../SCSS/style.scss */
+/* line 93, ../SCSS/style.scss */
 .s6 {
   background: #161616;
 }

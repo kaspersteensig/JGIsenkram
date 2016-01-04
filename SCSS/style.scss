@@ -1,7 +1,6 @@
-@import "compass";
 
 body {
-  background-color: #bababa; 
+  
 }
 
 .container {
@@ -70,25 +69,27 @@ body {
   background: #fff;
   color: #3d3d3d;
   padding: 50px 0;
-  height: 300px; }
+  height: auto; }
 
 .s1 {
-  background: #184764;
-  color: #fff; }
+  background: #bababa;
+  }
 
 .s2 {
-  background: #313131; }
+  background: #dadada; }
 
 
 .s3 {
-  background: #1b83b3; }
+  background: #bababa; }
 
 .s4 {
-  background: #5aa3c4; }
+  background: #dadada; 
+}
 
 .s5 {
-  background: #bce1f1;
-  color: #3d3d3d; }
+  background: #bababa;
+   }
 
 .s6 {
-  background: #161616; }
+  background: #dadada;
+}

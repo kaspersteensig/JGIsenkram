@@ -1,0 +1,110 @@
+/* line 2, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+body {
+  background-color: bada55; }
+
+/* line 5, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.container {
+  max-width: 70vw;
+  margin: 0 auto; }
+
+/* line 9, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.section {
+  width: 100%;
+  max-width: 1600px;
+  min-width: 960px;
+  z-index: 0;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+  min-height: 50vh; }
+
+/* line 19, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.inner {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 50px;
+  padding: 30px 0;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+  /* line 29, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+  .inner:after {
+    content: "";
+    clear: both; }
+
+/* line 34, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.subMenu {
+  height: 50px;
+  z-index: 1000;
+  width: 100%;
+  background: #0977bc; }
+
+/* line 40, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.subMenu .inner {
+  display: flex;
+  padding: 0;
+  font-weight: 400;
+  margin: 0 auto; }
+
+/* line 46, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.subNavBtn {
+  flex: 1;
+  height: 35px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 15px 2% 0 2%;
+  text-align: center;
+  color: #fff; }
+  /* line 56, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+  .subNavBtn:hover {
+    background: #1783c7; }
+
+/* line 60, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.active {
+  background: #25aae1; }
+
+/* line 63, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.end {
+  margin: 0; }
+
+/* line 66, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.sTop {
+  min-height: 130px;
+  background: #fff;
+  color: #3d3d3d;
+  padding: 50px 0;
+  height: 300px; }
+
+/* line 73, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.s1 {
+  background: #184764;
+  color: #fff; }
+
+/* line 77, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.s2 {
+  background: #313131; }
+
+/* line 80, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.s2 a {
+  color: #fff; }
+
+/* line 83, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.s3 {
+  background: #1b83b3; }
+
+/* line 86, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.s4 {
+  background: #5aa3c4; }
+
+/* line 89, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.s5 {
+  background: #bce1f1;
+  color: #3d3d3d; }
+
+/* line 93, C:/Visulasering/GitHub/JGIsenkram/SCSS/style.scss */
+.s6 {
+  background: #161616; }
+
+/*# sourceMappingURL=style.css.map */

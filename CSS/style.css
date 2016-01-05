@@ -1,24 +1,15 @@
-/* line 6, ../SCSS/style.scss */
-.container {
-  max-width: 70vw;
-  margin: 0 auto;
-}
-
-/* line 10, ../SCSS/style.scss */
+/* line 8, ../SCSS/style.scss */
 .section {
   width: 100%;
-  max-width: 1600px;
-  min-width: 960px;
+  padding: 0 0 20px 0;
   z-index: 0;
   position: relative;
   margin: 0 auto;
-  padding: 0 0 20px 0;
-  min-height: 50vh;
 }
 
-/* line 20, ../SCSS/style.scss */
+/* line 17, ../SCSS/style.scss */
 .inner {
-  width: 960px;
+  width: 60vw;
   margin: 0 auto;
   position: relative;
   min-height: 50px;
@@ -27,32 +18,36 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 30, ../SCSS/style.scss */
+/* line 27, ../SCSS/style.scss */
 .inner:after {
   content: "";
   clear: both;
 }
 
-/* line 35, ../SCSS/style.scss */
+/* line 33, ../SCSS/style.scss */
+img {
+  max-height: 40vh;
+  width: 100%;
+}
+
+/* line 38, ../SCSS/style.scss */
 .subMenu {
   height: 50px;
   z-index: 1000;
   width: 100%;
-  background: #0977bc;
+  background: #bada55;
 }
-
-/* line 41, ../SCSS/style.scss */
+/* line 45, ../SCSS/style.scss */
 .subMenu .inner {
   display: flex;
   padding: 0;
   font-weight: 400;
   margin: 0 auto;
 }
-
-/* line 47, ../SCSS/style.scss */
-.subNavBtn {
+/* line 51, ../SCSS/style.scss */
+.subMenu .inner .subNavBtn {
   flex: 1;
-  height: 35px;
+  height: 50px;
   margin: 0 auto;
   text-decoration: none;
   font-size: 14px;
@@ -60,56 +55,120 @@
   text-align: center;
   color: #fff;
 }
-/* line 57, ../SCSS/style.scss */
-.subNavBtn:hover {
-  background: #1783c7;
-}
-
 /* line 61, ../SCSS/style.scss */
-.active {
-  background: #25aae1;
+.subMenu .inner .subNavBtn:hover {
+  background: #baba77;
 }
 
-/* line 64, ../SCSS/style.scss */
+/* line 67, ../SCSS/style.scss */
+.active {
+  background: #daba55;
+}
+
+/* line 70, ../SCSS/style.scss */
 .end {
   margin: 0;
 }
 
-/* line 67, ../SCSS/style.scss */
+/* line 73, ../SCSS/style.scss */
 .sTop {
   min-height: 130px;
   background: #fff;
   color: #3d3d3d;
-  padding: 50px 0;
   height: auto;
 }
 
-/* line 74, ../SCSS/style.scss */
+/* line 80, ../SCSS/style.scss */
 .s1 {
-  background: #bababa;
+  background-color: #bababa;
+  color: black;
 }
 
-/* line 78, ../SCSS/style.scss */
+/* line 84, ../SCSS/style.scss */
 .s2 {
-  background: #dadada;
+  background-color: #dadada;
+  color: black;
 }
 
-/* line 82, ../SCSS/style.scss */
+/* line 88, ../SCSS/style.scss */
 .s3 {
-  background: #bababa;
+  background-color: #bababa;
+  color: black;
 }
 
-/* line 85, ../SCSS/style.scss */
+/* line 92, ../SCSS/style.scss */
 .s4 {
-  background: #dadada;
+  background-color: #dadada;
+  color: black;
 }
 
-/* line 89, ../SCSS/style.scss */
+/* line 96, ../SCSS/style.scss */
 .s5 {
-  background: #bababa;
+  background-color: #bababa;
+  color: black;
 }
 
-/* line 93, ../SCSS/style.scss */
+/* line 100, ../SCSS/style.scss */
 .s6 {
-  background: #dadada;
+  background-color: #dadada;
+  color: black;
+}
+
+/* line 105, ../SCSS/style.scss */
+header .inner {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  height: auto;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* line 118, ../SCSS/style.scss */
+#logo {
+  float: left;
+  margin-top: -25%;
+  margin-left: -20%;
+  width: 40%;
+}
+
+/* line 124, ../SCSS/style.scss */
+#img-h2 {
+  text-shadow: -3px 3px #595959;
+  line-height: 0.7em;
+  font-size: 2.4em;
+  text-align: right;
+  margin-right: -25%;
+}
+
+/* line 131, ../SCSS/style.scss */
+#img-h2-1 {
+  text-shadow: -3px 3px #595959;
+  margin-top: 0;
+  line-height: 0.7em;
+  font-size: 2.6em;
+  text-align: right;
+  margin-right: -25%;
+}
+
+/* line 139, ../SCSS/style.scss */
+#img-h2-2 {
+  text-shadow: -3px 3px #595959;
+  margin-top: 0;
+  line-height: 0.7em;
+  font-size: 2.1em;
+  text-align: right;
+  margin-right: -25%;
+}
+
+@media (min-width: 1300px) {
+  /* line 159, ../SCSS/style.scss */
+  .container-fuild {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    width: 65vw;
+  }
 }

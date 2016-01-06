@@ -1,5 +1,6 @@
 @import "compass/utilities/color/contrast";
 body {
+  background-color: #f2f2f2;
 }
 
 h1{
@@ -22,6 +23,10 @@ address {
   
   h2 {
     margin-top: 0.2em;
+  }
+  
+  h1 {
+    font-size: 2em;
   }
 }
 
@@ -152,6 +157,9 @@ header {
   }
 }
 
+#map {
+  height: 400vh;
+}
 
 #logo {
   float: left;
@@ -188,14 +196,14 @@ header {
 
 footer {
   margin-top: 0.5em;
-  background-color: #737373;
+  background-color: #8c8c8c;
   
   address {
-    @include contrasted(#737373);
+    @include contrasted(#8c8c8c);
   }
   
   a{
-    @include contrasted(#737373);
+    @include contrasted(#8c8c8c);
     text-decoration: underline;
     
     &:hover {
@@ -204,10 +212,20 @@ footer {
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1299px) {
+  #map{
+    height: 40vh;
+  }
 }
 
 @media (max-width: 900px) {
+  #map{
+    height: 20vh;
+    
+    #hideonsmallscreen {
+      display: none;
+    }
+  }
 }
 
 @media (min-width: 1300px) {
@@ -216,5 +234,9 @@ footer {
     padding-left: 15px;
     margin: 0 auto;
     width: 65vw;
+  }
+  
+  #map {
+    height: 40vh;
   }
 }

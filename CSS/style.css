@@ -1,37 +1,46 @@
-/* line 5, ../SCSS/style.scss */
+/* line 2, ../SCSS/style.scss */
+body {
+  background-color: #f2f2f2;
+}
+
+/* line 6, ../SCSS/style.scss */
 h1 {
   margin-top: 0.4em;
   margin-bottom: 0.4em;
 }
 
-/* line 10, ../SCSS/style.scss */
+/* line 11, ../SCSS/style.scss */
 address {
   margin-top: 1em;
   font-size: 1.2em;
 }
 
-/* line 15, ../SCSS/style.scss */
+/* line 16, ../SCSS/style.scss */
 .panel-heading {
   padding-bottom: 0em;
   padding-top: 0.1em;
 }
 
-/* line 20, ../SCSS/style.scss */
+/* line 21, ../SCSS/style.scss */
 .panel {
   margin-top: 1em;
 }
-/* line 23, ../SCSS/style.scss */
+/* line 24, ../SCSS/style.scss */
 .panel h2 {
   margin-top: 0.2em;
 }
+/* line 28, ../SCSS/style.scss */
+.panel h1 {
+  font-size: 2em;
+}
 
-/* line 29, ../SCSS/style.scss */
+/* line 34, ../SCSS/style.scss */
 .panel-body h3 {
   font-size: 2em;
   text-align: center;
 }
 
-/* line 35, ../SCSS/style.scss */
+/* line 40, ../SCSS/style.scss */
 .section {
   width: 100%;
   padding: 0 0 20px 0;
@@ -40,7 +49,7 @@ address {
   margin: 0 auto;
 }
 
-/* line 43, ../SCSS/style.scss */
+/* line 48, ../SCSS/style.scss */
 .inner {
   width: 60vw;
   margin: 0 auto;
@@ -51,19 +60,19 @@ address {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 53, ../SCSS/style.scss */
+/* line 58, ../SCSS/style.scss */
 .inner:after {
   content: "";
   clear: both;
 }
 
-/* line 59, ../SCSS/style.scss */
+/* line 64, ../SCSS/style.scss */
 img {
   max-height: 40vh;
   width: 100%;
 }
 
-/* line 64, ../SCSS/style.scss */
+/* line 69, ../SCSS/style.scss */
 .subMenu {
   height: 50px;
   z-index: 1000;
@@ -71,14 +80,14 @@ img {
   background-color: #3384ff;
   color: black;
 }
-/* line 70, ../SCSS/style.scss */
+/* line 75, ../SCSS/style.scss */
 .subMenu .inner {
   display: flex;
   padding: 0;
   font-weight: 400;
   margin: 0 auto;
 }
-/* line 76, ../SCSS/style.scss */
+/* line 81, ../SCSS/style.scss */
 .subMenu .inner .subNavBtn {
   flex: 1;
   height: 50px;
@@ -89,28 +98,28 @@ img {
   text-align: center;
   color: #fff;
 }
-/* line 86, ../SCSS/style.scss */
+/* line 91, ../SCSS/style.scss */
 .subMenu .inner .subNavBtn:hover {
   background-color: #33ccff;
   color: black;
 }
-/* line 91, ../SCSS/style.scss */
+/* line 96, ../SCSS/style.scss */
 .subMenu .inner .active {
   background-color: #f3f3f3;
   color: black;
 }
-/* line 94, ../SCSS/style.scss */
+/* line 99, ../SCSS/style.scss */
 .subMenu .inner .active:hover {
   background-color: #f3f3f3;
   color: black;
 }
 
-/* line 101, ../SCSS/style.scss */
+/* line 106, ../SCSS/style.scss */
 .end {
   margin: 0;
 }
 
-/* line 105, ../SCSS/style.scss */
+/* line 110, ../SCSS/style.scss */
 .sTop {
   min-height: 130px;
   background: #fff;
@@ -118,48 +127,48 @@ img {
   height: auto;
 }
 
-/* line 112, ../SCSS/style.scss */
+/* line 117, ../SCSS/style.scss */
 .s1 {
   background-color: #bababa;
   color: black;
 }
 
-/* line 116, ../SCSS/style.scss */
+/* line 121, ../SCSS/style.scss */
 .s2 {
   background-color: #dadada;
   color: black;
 }
 
-/* line 121, ../SCSS/style.scss */
+/* line 126, ../SCSS/style.scss */
 .s3 {
   background-color: #bababa;
   color: black;
 }
 
-/* line 125, ../SCSS/style.scss */
+/* line 130, ../SCSS/style.scss */
 .s4 {
   background-color: #dadada;
   color: black;
 }
 
-/* line 129, ../SCSS/style.scss */
+/* line 134, ../SCSS/style.scss */
 .s5 {
   background-color: #bababa;
   color: black;
 }
 
-/* line 133, ../SCSS/style.scss */
+/* line 138, ../SCSS/style.scss */
 .s6 {
   background-color: #dadada;
   color: black;
 }
 
-/* line 137, ../SCSS/style.scss */
+/* line 142, ../SCSS/style.scss */
 .col-md-12 {
   min-height: 40vh;
 }
 
-/* line 143, ../SCSS/style.scss */
+/* line 148, ../SCSS/style.scss */
 header .inner {
   width: 100%;
   margin: 0;
@@ -171,7 +180,12 @@ header .inner {
   font-weight: 300;
 }
 
-/* line 156, ../SCSS/style.scss */
+/* line 160, ../SCSS/style.scss */
+#map {
+  height: 400vh;
+}
+
+/* line 164, ../SCSS/style.scss */
 #logo {
   float: left;
   margin-top: -25%;
@@ -179,7 +193,7 @@ header .inner {
   width: 40%;
 }
 
-/* line 163, ../SCSS/style.scss */
+/* line 171, ../SCSS/style.scss */
 #img-h2 {
   text-shadow: -3px 3px #595959;
   line-height: 0.7em;
@@ -188,7 +202,7 @@ header .inner {
   margin-right: -25%;
 }
 
-/* line 171, ../SCSS/style.scss */
+/* line 179, ../SCSS/style.scss */
 #img-h2-1 {
   text-shadow: -3px 3px #595959;
   margin-top: 0;
@@ -198,7 +212,7 @@ header .inner {
   margin-right: -25%;
 }
 
-/* line 180, ../SCSS/style.scss */
+/* line 188, ../SCSS/style.scss */
 #img-h2-2 {
   text-shadow: -3px 3px #595959;
   margin-top: 0;
@@ -208,33 +222,54 @@ header .inner {
   margin-right: -25%;
 }
 
-/* line 189, ../SCSS/style.scss */
+/* line 197, ../SCSS/style.scss */
 footer {
   margin-top: 0.5em;
-  background-color: #737373;
+  background-color: #8c8c8c;
 }
-/* line 193, ../SCSS/style.scss */
+/* line 201, ../SCSS/style.scss */
 footer address {
-  background-color: #737373;
+  background-color: #8c8c8c;
   color: black;
 }
-/* line 197, ../SCSS/style.scss */
+/* line 205, ../SCSS/style.scss */
 footer a {
-  background-color: #737373;
+  background-color: #8c8c8c;
   color: black;
   text-decoration: underline;
 }
-/* line 201, ../SCSS/style.scss */
+/* line 209, ../SCSS/style.scss */
 footer a:hover {
   color: azure;
 }
 
+@media (max-width: 1299px) {
+  /* line 216, ../SCSS/style.scss */
+  #map {
+    height: 40vh;
+  }
+}
+@media (max-width: 900px) {
+  /* line 222, ../SCSS/style.scss */
+  #map {
+    height: 20vh;
+  }
+  /* line 225, ../SCSS/style.scss */
+  #map #hideonsmallscreen {
+    display: none;
+  }
+}
 @media (min-width: 1300px) {
-  /* line 214, ../SCSS/style.scss */
+  /* line 232, ../SCSS/style.scss */
   .container-fuild {
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
     width: 65vw;
+  }
+
+  /* line 239, ../SCSS/style.scss */
+  #map {
+    height: 40vh;
   }
 }

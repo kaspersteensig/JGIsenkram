@@ -1,46 +1,64 @@
-/* line 2, ../SCSS/style.scss */
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+/* line 4, ../SCSS/style.scss */
 body {
-  background-color: #f2f2f2;
+  background: #bababa;
 }
 
-/* line 6, ../SCSS/style.scss */
+/* line 8, ../SCSS/style.scss */
+p {
+  font-family: Raleway;
+}
+
+/* line 12, ../SCSS/style.scss */
+h2 {
+  font-family: Raleway;
+}
+
+/* line 16, ../SCSS/style.scss */
+h3 {
+  font-family: Raleway;
+}
+
+/* line 19, ../SCSS/style.scss */
 h1 {
+  font-family: Raleway;
   margin-top: 0.4em;
   margin-bottom: 0.4em;
 }
 
-/* line 11, ../SCSS/style.scss */
+/* line 25, ../SCSS/style.scss */
 address {
   margin-top: 1em;
   font-size: 1.2em;
 }
 
-/* line 16, ../SCSS/style.scss */
+/* line 30, ../SCSS/style.scss */
 .panel-heading {
   padding-bottom: 0em;
   padding-top: 0.1em;
 }
 
-/* line 21, ../SCSS/style.scss */
+/* line 35, ../SCSS/style.scss */
 .panel {
   margin-top: 1em;
 }
-/* line 24, ../SCSS/style.scss */
+/* line 38, ../SCSS/style.scss */
 .panel h2 {
   margin-top: 0.2em;
 }
-/* line 28, ../SCSS/style.scss */
+/* line 42, ../SCSS/style.scss */
 .panel h1 {
   font-size: 2em;
 }
 
-/* line 34, ../SCSS/style.scss */
+/* line 48, ../SCSS/style.scss */
 .panel-body h3 {
   font-size: 2em;
   text-align: center;
 }
 
-/* line 40, ../SCSS/style.scss */
+/* line 54, ../SCSS/style.scss */
 .section {
   width: 100%;
   padding: 0 0 20px 0;
@@ -49,7 +67,7 @@ address {
   margin: 0 auto;
 }
 
-/* line 48, ../SCSS/style.scss */
+/* line 62, ../SCSS/style.scss */
 .inner {
   width: 60vw;
   margin: 0 auto;
@@ -60,19 +78,19 @@ address {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-/* line 58, ../SCSS/style.scss */
+/* line 72, ../SCSS/style.scss */
 .inner:after {
   content: "";
   clear: both;
 }
 
-/* line 64, ../SCSS/style.scss */
+/* line 78, ../SCSS/style.scss */
 img {
   max-height: 40vh;
   width: 100%;
 }
 
-/* line 69, ../SCSS/style.scss */
+/* line 83, ../SCSS/style.scss */
 .subMenu {
   height: 50px;
   z-index: 1000;
@@ -80,15 +98,16 @@ img {
   background-color: #3384ff;
   color: black;
 }
-/* line 75, ../SCSS/style.scss */
+/* line 89, ../SCSS/style.scss */
 .subMenu .inner {
   display: flex;
   padding: 0;
   font-weight: 400;
   margin: 0 auto;
 }
-/* line 81, ../SCSS/style.scss */
+/* line 95, ../SCSS/style.scss */
 .subMenu .inner .subNavBtn {
+  font-family: Raleway;
   flex: 1;
   height: 50px;
   margin: 0 auto;
@@ -98,28 +117,28 @@ img {
   text-align: center;
   color: #fff;
 }
-/* line 91, ../SCSS/style.scss */
+/* line 106, ../SCSS/style.scss */
 .subMenu .inner .subNavBtn:hover {
   background-color: #33ccff;
   color: black;
 }
-/* line 96, ../SCSS/style.scss */
+/* line 111, ../SCSS/style.scss */
 .subMenu .inner .active {
   background-color: #f3f3f3;
   color: black;
 }
-/* line 99, ../SCSS/style.scss */
+/* line 114, ../SCSS/style.scss */
 .subMenu .inner .active:hover {
   background-color: #f3f3f3;
   color: black;
 }
 
-/* line 106, ../SCSS/style.scss */
+/* line 121, ../SCSS/style.scss */
 .end {
   margin: 0;
 }
 
-/* line 110, ../SCSS/style.scss */
+/* line 125, ../SCSS/style.scss */
 .sTop {
   min-height: 130px;
   background: #fff;
@@ -127,48 +146,7 @@ img {
   height: auto;
 }
 
-/* line 117, ../SCSS/style.scss */
-.s1 {
-  background-color: #bababa;
-  color: black;
-}
-
-/* line 121, ../SCSS/style.scss */
-.s2 {
-  background-color: #dadada;
-  color: black;
-}
-
-/* line 126, ../SCSS/style.scss */
-.s3 {
-  background-color: #bababa;
-  color: black;
-}
-
-/* line 130, ../SCSS/style.scss */
-.s4 {
-  background-color: #dadada;
-  color: black;
-}
-
-/* line 134, ../SCSS/style.scss */
-.s5 {
-  background-color: #bababa;
-  color: black;
-}
-
-/* line 138, ../SCSS/style.scss */
-.s6 {
-  background-color: #dadada;
-  color: black;
-}
-
-/* line 142, ../SCSS/style.scss */
-.col-md-12 {
-  min-height: 40vh;
-}
-
-/* line 148, ../SCSS/style.scss */
+/* line 152, ../SCSS/style.scss */
 header .inner {
   width: 100%;
   margin: 0;
@@ -176,16 +154,16 @@ header .inner {
   height: auto;
   padding: 0;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Montserrat;
   font-weight: 300;
 }
 
-/* line 160, ../SCSS/style.scss */
+/* line 164, ../SCSS/style.scss */
 #map {
   height: 400vh;
 }
 
-/* line 164, ../SCSS/style.scss */
+/* line 168, ../SCSS/style.scss */
 #logo {
   float: left;
   margin-top: -25%;
@@ -193,8 +171,9 @@ header .inner {
   width: 40%;
 }
 
-/* line 171, ../SCSS/style.scss */
+/* line 175, ../SCSS/style.scss */
 #img-h2 {
+  font-family: Montserrat;
   text-shadow: -3px 3px #595959;
   line-height: 0.7em;
   font-size: 2.4em;
@@ -202,8 +181,9 @@ header .inner {
   margin-right: -25%;
 }
 
-/* line 179, ../SCSS/style.scss */
+/* line 184, ../SCSS/style.scss */
 #img-h2-1 {
+  font-family: Montserrat;
   text-shadow: -3px 3px #595959;
   margin-top: 0;
   line-height: 0.7em;
@@ -212,8 +192,9 @@ header .inner {
   margin-right: -25%;
 }
 
-/* line 188, ../SCSS/style.scss */
+/* line 194, ../SCSS/style.scss */
 #img-h2-2 {
+  font-family: Montserrat;
   text-shadow: -3px 3px #595959;
   margin-top: 0;
   line-height: 0.7em;
@@ -222,45 +203,45 @@ header .inner {
   margin-right: -25%;
 }
 
-/* line 197, ../SCSS/style.scss */
+/* line 204, ../SCSS/style.scss */
 footer {
   margin-top: 0.5em;
   background-color: #8c8c8c;
 }
-/* line 201, ../SCSS/style.scss */
+/* line 208, ../SCSS/style.scss */
 footer address {
   background-color: #8c8c8c;
   color: black;
 }
-/* line 205, ../SCSS/style.scss */
+/* line 212, ../SCSS/style.scss */
 footer a {
   background-color: #8c8c8c;
   color: black;
   text-decoration: underline;
 }
-/* line 209, ../SCSS/style.scss */
+/* line 216, ../SCSS/style.scss */
 footer a:hover {
   color: azure;
 }
 
 @media (max-width: 1299px) {
-  /* line 216, ../SCSS/style.scss */
+  /* line 223, ../SCSS/style.scss */
   #map {
     height: 40vh;
   }
 }
 @media (max-width: 900px) {
-  /* line 222, ../SCSS/style.scss */
+  /* line 229, ../SCSS/style.scss */
   #map {
     height: 20vh;
   }
-  /* line 225, ../SCSS/style.scss */
+  /* line 232, ../SCSS/style.scss */
   #map #hideonsmallscreen {
     display: none;
   }
 }
 @media (min-width: 1300px) {
-  /* line 232, ../SCSS/style.scss */
+  /* line 239, ../SCSS/style.scss */
   .container-fuild {
     padding-right: 15px;
     padding-left: 15px;
@@ -268,8 +249,36 @@ footer a:hover {
     width: 65vw;
   }
 
-  /* line 239, ../SCSS/style.scss */
+  /* line 246, ../SCSS/style.scss */
   #map {
     height: 40vh;
   }
+}
+/* line 252, ../SCSS/style.scss */
+.panel-primary .panel-heading {
+  height: auto;
+  background: lightblue;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #3384ff, lightblue);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #3384ff, lightblue);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #3384ff, lightblue);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #3384ff, #add8e6);
+  /* Standard syntax (must be last) */
+}
+
+/* line 262, ../SCSS/style.scss */
+#grad1 {
+  background: #3384ff;
+  /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#3384ff, lightblue);
+  /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#3384ff, lightblue);
+  /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#3384ff, lightblue);
+  /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#3384ff, #add8e6);
+  /* Standard syntax (must be last) */
 }

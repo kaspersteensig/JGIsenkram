@@ -72,7 +72,7 @@
 		</header>
 		
 		<nav class="row" >
-			<div class="subMenu">
+			<div class="subMenu" id="grad1">
 				<div class="inner">
 					<a href="#sTop" class="subNavBtn">Hjem</a>
 					<a href="#s1" class="subNavBtn">Infomation</a>
@@ -83,6 +83,36 @@
 				</div>
 			</div>
 		</nav>
+
+
+<!--forsøg på at få en bootstrap menu bar ind sammen med smint-->
+
+<!--
+<nav class="navbar" id="grad1">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">JG Isenkram</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+       <div class="subMenu">
+				<div class="inner">
+        			<li><a href="#sTop" class="subNavBtn">Hjem</a></li>        
+					<li><a href="#s1" class="subNavBtn">Infomation</a></li>
+					<li><a href="#s2" class="subNavBtn">Leverandør</a></li>
+					<li><a href="#s3" class="subNavBtn">Brugt</a></li>
+					<li><a href="#s4" class="subNavBtn">Tilbudsavis</a></li>
+					<li><a href="#s5" class="subNavBtn">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+-->
 
 	</div>
 	<div class="container">
@@ -162,10 +192,8 @@
 								</div>
 								
 								<div class="col-md-2 col-sm-2 col-xs-6">
-									<a target="_blank" href="http://www.fki.dk/">
-										<center>
-											<img class="img-responsive" src="partner/Logo_FKI.gif" alt="FKI logo">
-										</center>
+									<a target="_blank" href="http://www.fki.dk/">	
+											<img class="img-responsive" src="partner/Logo_FKI.gif" alt="FKI logo">										
 									</a>
 								</div>
 								
@@ -200,7 +228,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			
 			
 
 			
@@ -241,15 +269,17 @@
 											<a target="_blank" href="http://www.bronnum.dk/default.aspx?pageID=4239&lang=da">Klik her for at se tilbud hos Brønnum</a>
 											<hr />
 											<a href="http://www.hwl.dk/da/tilbudsvarer/">Aktuelle tilbud hos H.W. Larsen</a>
-											
+																					
 										</div>
 										<div class="col-md-4">
-											<a href="http://ekatalog.dk/bronnum/avis1-2016/">Tilbudsavis - Brønnum</a>
-											<br>
-											<a href="http://ekatalog.dk/bronnum/udsalgsavis1-2016/">UDSALG hos brønnum - Spar op til 60%</a>
+											<p>
+												<a href="http://ekatalog.dk/bronnum/avis1-2016/">Tilbudsavis - Brønnum</a>
+												<br>
+												<a href="http://ekatalog.dk/bronnum/udsalgsavis1-2016/">UDSALG hos brønnum - Spar op til 60%</a>
+											</p>
 										</div>
-									</div>
-								</p>
+									
+								</div>								
 							</div>
 						</div>
 					</div>
@@ -262,7 +292,7 @@
 							</div>
 							
 							<!--		google map integrerat			-->
-							<iframe id="map" style="pointer-events:none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8726.320439925385!2d8.512075268703063!3d56.853145914056725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46499056580ec65b%3A0x2aea5cedf50f9e5e!2sFuglh%C3%B8jg%C3%A5rdvej+4%2C+7752+Snedsted!5e0!3m2!1sda!2sdk!4v1452073517431" width="100%" height="400vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8726.320439925385!2d8.512075268703063!3d56.853145914056725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46499056580ec65b%3A0x2aea5cedf50f9e5e!2sFuglh%C3%B8jg%C3%A5rdvej+4%2C+7752+Snedsted!5e0!3m2!1sda!2sdk!4v1452073517431" style="pointer-events:none; height:40vh; width: 100%; border:0" allowfullscreen></iframe>
 							
 							
 							<!--		kontakt info er skrevet her			-->
@@ -279,7 +309,7 @@
 			
 			<!--	Footeren er 4 delt de 3 felter har intet indhold lige i tiden    -->
 			<footer>
-				<div class="container-fuild">
+				<div class="container-fluid">
 					<div class="container">
 						
 						<!--	Footer første del      -->
@@ -290,15 +320,15 @@
 						</div>
 
 						<!--	Footer 2. del         -->
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="col-md-3 col-sm-6 col-xs-12"></div>
 							
 							<!--	Footer 3. del         -->
-							<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="col-md-3 col-sm-6 col-xs-12"></div>
 								
 								<!--	Footer 4. del         -->
-								<div class="col-md-3 col-sm-6 col-xs-12">
-								</div>
-							</div>
-						</footer>
-					</body>
-					</html>
+						<div class="col-md-3 col-sm-6 col-xs-12"></div>
+					</div>
+				</div>
+			</footer>
+		</body>
+	</html>

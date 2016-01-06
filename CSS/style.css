@@ -35,7 +35,7 @@ img {
   height: 50px;
   z-index: 1000;
   width: 100%;
-  background: #bada55;
+  background: #3384ff;
 }
 /* line 45, ../SCSS/style.scss */
 .subMenu .inner {
@@ -44,7 +44,7 @@ img {
   font-weight: 400;
   margin: 0 auto;
 }
-/* line 51, ../SCSS/style.scss */
+/* line 53, ../SCSS/style.scss */
 .subMenu .inner .subNavBtn {
   flex: 1;
   height: 50px;
@@ -55,22 +55,26 @@ img {
   text-align: center;
   color: #fff;
 }
-/* line 61, ../SCSS/style.scss */
+/* line 63, ../SCSS/style.scss */
+.subMenu .inner .subNavBtn:active {
+  color: black;
+}
+/* line 68, ../SCSS/style.scss */
 .subMenu .inner .subNavBtn:hover {
-  background: #baba77;
+  background: #33ccff;
 }
 
-/* line 67, ../SCSS/style.scss */
+/* line 74, ../SCSS/style.scss */
 .active {
-  background: #daba55;
+  background: #f2f2f2;
 }
 
-/* line 70, ../SCSS/style.scss */
+/* line 79, ../SCSS/style.scss */
 .end {
   margin: 0;
 }
 
-/* line 73, ../SCSS/style.scss */
+/* line 82, ../SCSS/style.scss */
 .sTop {
   min-height: 130px;
   background: #fff;
@@ -78,43 +82,43 @@ img {
   height: auto;
 }
 
-/* line 80, ../SCSS/style.scss */
+/* line 89, ../SCSS/style.scss */
 .s1 {
   background-color: #bababa;
   color: black;
 }
 
-/* line 84, ../SCSS/style.scss */
+/* line 93, ../SCSS/style.scss */
 .s2 {
   background-color: #dadada;
   color: black;
 }
 
-/* line 88, ../SCSS/style.scss */
+/* line 97, ../SCSS/style.scss */
 .s3 {
   background-color: #bababa;
   color: black;
 }
 
-/* line 92, ../SCSS/style.scss */
+/* line 101, ../SCSS/style.scss */
 .s4 {
   background-color: #dadada;
   color: black;
 }
 
-/* line 96, ../SCSS/style.scss */
+/* line 105, ../SCSS/style.scss */
 .s5 {
   background-color: #bababa;
   color: black;
 }
 
-/* line 100, ../SCSS/style.scss */
+/* line 109, ../SCSS/style.scss */
 .s6 {
   background-color: #dadada;
   color: black;
 }
 
-/* line 105, ../SCSS/style.scss */
+/* line 114, ../SCSS/style.scss */
 header .inner {
   width: 100%;
   margin: 0;
@@ -126,7 +130,7 @@ header .inner {
   font-weight: 300;
 }
 
-/* line 118, ../SCSS/style.scss */
+/* line 127, ../SCSS/style.scss */
 #logo {
   float: left;
   margin-top: -25%;
@@ -134,7 +138,7 @@ header .inner {
   width: 40%;
 }
 
-/* line 124, ../SCSS/style.scss */
+/* line 133, ../SCSS/style.scss */
 #img-h2 {
   text-shadow: -3px 3px #595959;
   line-height: 0.7em;
@@ -143,7 +147,7 @@ header .inner {
   margin-right: -25%;
 }
 
-/* line 131, ../SCSS/style.scss */
+/* line 140, ../SCSS/style.scss */
 #img-h2-1 {
   text-shadow: -3px 3px #595959;
   margin-top: 0;
@@ -153,7 +157,7 @@ header .inner {
   margin-right: -25%;
 }
 
-/* line 139, ../SCSS/style.scss */
+/* line 148, ../SCSS/style.scss */
 #img-h2-2 {
   text-shadow: -3px 3px #595959;
   margin-top: 0;
@@ -164,7 +168,7 @@ header .inner {
 }
 
 @media (min-width: 1300px) {
-  /* line 159, ../SCSS/style.scss */
+  /* line 168, ../SCSS/style.scss */
   .container-fuild {
     padding-right: 15px;
     padding-left: 15px;

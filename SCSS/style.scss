@@ -40,13 +40,15 @@ img {
   z-index: 1000;
   width: 100%;
   
-  background: #bada55; 
+  background: #3384ff; 
 
  .inner {
   display: flex;
   padding: 0;
   font-weight: 400;
   margin: 0 auto; 
+   
+   
 
 .subNavBtn {
   flex: 1;
@@ -57,15 +59,22 @@ img {
   padding: 15px 2% 0 2%;
   text-align: center;
   color: #fff; 
+  
+  &:active {
+    color: black;
+  }
+  
 
   &:hover {
-    background: #baba77; }
+    background: #33ccff; }
   }
 }
 }
 
 .active {
-  background: #daba55; }
+  background: #f2f2f2;
+  
+}
 
 .end {
   margin: 0; }
